@@ -1,6 +1,6 @@
 import Ember from 'ember';
-import getOwner from 'ember-getowner-polyfill';
 import Configuration from './../configuration';
+import getOwner from 'ember-getowner-polyfill';
 
 const { inject: { service }, Mixin, assert, computed } = Ember;
 
